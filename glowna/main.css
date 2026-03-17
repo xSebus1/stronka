@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --czarny: #000000;
+    --szary: #4B4B4B;
+    --zolty: #EAC100;
+    --bialy: #FAFAFA;
+    --babyblue: #61DBFB;
+    --jasnozielony: #42B883;
+    --granat: #787CB5;
+    --czerwony: #BC0B15;
+    --jasnoszary: #D9D9D9;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+.glowa{
+    display: flex;
+    background-color: var(--jasnoszary);
+    width: 85vw;
+    height: 15vh;
+    align-items: center;
+}
+
+.navi{
+    width: 85vw;
+    height: 5vh;
+    background-color: var(--szary);
+}
+
+.doublenavi{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.przycisk{
+    width: 20%;
+    height: 75%;
+    background-color: var(--jasnoszary);
+    align-content: center;
+}
+
+.przycisk > a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+#glowna{
+    background-color: var(--zolty);
+}
+
+.main{
+    background-color: red;
+    width: 85vw;
+    height: 100vh;
+}
+
+.pobok{
+    width: 15vw;
+    height: 85vh;
+    background-color: var(--jasnoszary);
+}
+
+.tekstownik{
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekstcik{
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tekstcik > p{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+hr{
+    display: flex;
+    align-self: center;
+    border-bottom: 2px solid var(--szary);
+    border-top: 2px solid var(--szary);
+    width: 85%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.stopa{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15vw;
+    height: 15vh;
+    background-color: var(--szary);
+}
+
+.aside{
+    width: 20vw;
+    height: 100vh;
+    background-color: orange;
+}
+
+.gorna{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    background-image: url(background.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.ptekst{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    font-size: xx-large;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.tekst{
+    display: flex;
+    width: 50%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo{
+    margin-left: 25px;
+}
+
+.github{
+    margin-top: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.autor{
+    color: white;
+    font-style: normal;
+}
+
+.kolorowe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: flex-end;
+    align-items: flex-end;
+    width: 85%;
+    height: 50vh;
+}
+
+.blok:hover{
+    width: 88%;
+    transform:translateX(-10px);
+    transition: 0.1s;
+    position: relative;
+    right: -10px;
+}
+
+.blok{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 80%;
+    height: 15%;
+}
+
+.blok > p{
+    color: var(--bialy);
+    text-decoration: 1px solid var(--bialy);
+}
+
+#niebieski{
+    background-color: var(--babyblue);
+}
+
+.blokprawo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+    align-items: center;
+}
+
+.bloklewo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    height: 100%;
+    color: var(--bialy);
+}
+
+.tekstblok{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    justify-self: center;
+    justify-content: space-around;
+}
+
+
+#react{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: -2px 0px aqua, 0px 2px aqua, 2px 0px aqua, 0px -2px aqua;
+}
+
+#vue{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: -2px 0px green, 0px 2px green, 2px 0px green, 0px -2px green;
+}
+
+#php{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: -2px 0px rgb(101, 48, 151), 0px 2px rgb(101, 48, 151), 2px 0px rgb(101, 48, 151), 0px -2px rgb(101, 48, 151);
+}
+
+#java{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: -2px 0px rgb(156, 22, 22), 0px 2px rgb(156, 22, 22), 2px 0px rgb(156, 22, 22), 0px -2px rgb(156, 22, 22);
+}
+
+.niebieskiprawo > p{
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.niebieskilewo > p{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+
+#zielony{
+    background-color: var(--jasnozielony);
+}
+
+#fioletowy{
+    background-color: var(--granat);
+}
+
+#czerwony{
+    background-color: var(--czerwony);
+}
